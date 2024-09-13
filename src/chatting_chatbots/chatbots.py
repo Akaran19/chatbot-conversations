@@ -342,7 +342,7 @@ class Experiment:
             train_dataset=input_batch,
         ).train()
 
-    # helper function for returing the model of a participant
+    # helper function for returning the model of a participant
     def return_model(self, participant):
         return self.models[participant][1]
 
